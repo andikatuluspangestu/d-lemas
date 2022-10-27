@@ -1,4 +1,4 @@
-### Detail
+### Author
 - 12210940 Andika Tulus Pangestu
 - SI 12.3A.35
 
