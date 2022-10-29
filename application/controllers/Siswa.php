@@ -56,13 +56,13 @@ class Siswa extends CI_Controller
     redirect('/');
   }
 
-  public function hapus($id_siswa)
+  public function hapus($id)
   {
     // Load model
     $this->load->model('m_siswa');
 
     //get ID dari URL segment ke 3
-    $id['id_siswa'] = $this->uri->segment(3);
+    $id['id'] = $this->uri->segment(3);
 
     // Delete via model
     $this->m_siswa->hapus_siswa($id);
